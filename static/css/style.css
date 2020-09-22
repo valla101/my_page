@@ -1,0 +1,79 @@
+/* Jumbotron Styling */
+.jumbotron{margin-bottom: 0!important;
+background-color: cadetblue !important;}
+
+.jumbotron div h1 {text-align: center;
+font-family: Verdana, Arial, Helvetica;
+color: white}
+
+
+/* Nav Bar */
+.container-fluid .nav.navbar-nav {background-color: whitesmoke;
+    position: absolute;
+    left: 0;}
+
+.navbar.navbar-default {background-color: rgb(252, 190, 76);
+position: sticky;
+top:0;
+z-index: 1;}
+
+/* responsible for positioning of links */
+
+
+ul.nav.navbar-nav li a {color: black;
+font-family: 'Calibri Light';
+font-size: 17px;
+font-weight: bold;}
+
+ul.nav.navbar-nav li a:hover {color: blue;
+background-color: yellow;}
+
+
+/* Photo & Text */
+
+/* Aligns Photo & Text Below */
+#snapshot{vertical-align: top;
+    display: inline-block;
+    text-align: center;}
+
+#snapshot img{width:250px;height:250px;
+border-radius: 50%;
+padding: 10px;
+float: top;}
+
+/* Sets Width of block of text under picture */
+#snapshot p {width: 300px;
+font-family: 'Calibri';}
+
+
+/* Projects Section*/
+
+
+/* MVP Project */
+#project_header {text-align: center;
+width: 100%;
+border-bottom:2px solid black;
+padding-bottom: 10px;
+font-family: "Calibri Light";
+font-weight: bold;
+}
+
+#project_1 {text-align: center;
+font-family: 'Calibri Light';
+color: rgb(62, 62, 231);
+font-weight: bold;
+padding-top: 15px;
+padding-bottom: 15px;}
+
+#project_1_figure img{width: 75%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border:1px solid gray}
+
+#mvp_description {border-top: 1px black;
+text-align: justify;
+float: bottom;
+margin-top: 10px;
+padding-top: 20px;
+font-size: 16px;}

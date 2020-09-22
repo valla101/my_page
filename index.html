@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <!-- D3 Script -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+    <div class = 'jumbotron'>
+        <div class = 'container'>
+            <h1>Welcome to Alex Valladares's Portfolio Page!</h1>
+        </div>
+    </div>
+    <!-- navbar-fixed-top because it eliminates the small space between jumbotron and navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li id = "Home"><a href="index.html">Home</a></li>
+                <li><a href="https://github.com/valla101">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/alex-valladares-833903140/">LinkedIn</a></li>
+                <li><a href="https://bootcamp.rutgers.edu/data/curriculum/">Rutgers Bootcamp Curriculum</a></li>
+                <li><a href="mailto: alex.valla101@gmail.com">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <figure id="snapshot">
+                    <img src="../../../Pictures/Saved Pictures/20190810_215726.jpg">
+                    <p>Bilingual New Jersey Native. Completed Bachelor's of Science in Mechanical Engineering at NJIT
+                        and holds a Data Science Bootcamp Certificate from Rutgers University. Contact me via email <a
+                            href="mailto: alex.valla101@gmail.com"> here! </a></p>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class = "container">
+        <h1 id="project_header">Projects</h1>
+    </div>
+    <div class = "container">
+        <h2 id="project_1">NBA Awards Predictor</h2>
+        <div class = "row">
+            <figure id = "project_1_figure">
+                <img class = "image-responsive" id = "project_1_gif" src= "../../../Videos/gifs/mvp_website.gif">
+            </figure>
+        </div>
+        <div class="row">
+            <p id = "mvp_description"> Ever wondered how to apply machine learning? This is an example of how to combine sports and technology! The scope of the project was to use statistics from previous seasons’ winners, apply these statistics into algorithms to make the machine “learn”, and subsequently predict the current season’s award winners. In this project we were able to predict Most Valuable Player and Rookie of The Year. Our predictions were correct! Giannis Antetokounmpo won Most Valuable Player and Ja Morant won Rookie of The Year for the 2019-2020 NBA Season.</p>
+        </div>
+    </div>
+
+    <!-- JS Script -->
+    <script src="static/js/app.js"></script>
+</body>
+
+</html>
