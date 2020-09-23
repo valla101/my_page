@@ -101,3 +101,45 @@ float: bottom;
 margin-top: 10px;
 padding-top: 20px;
 font-size: 16px;}
+
+/* Power Plants Project */
+
+#project_2 {text-align: center;
+font-family: 'Calibri Light';
+color: rgb(62, 62, 231);
+font-weight: bold;
+padding-top: 100px;
+padding-bottom: 15px;}
+
+
+#project_2_figure img{width: 75%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border:1px solid gray}
+
+#project_2_link{color: rgb(62, 62, 231);}
+
+#project_2_link:hover{color: rgb(252, 190, 76);}
+/* Footer */
+.page-footer {
+width: 100%;
+background-color: cadetblue;
+}
+
+.page-footer .container {
+padding-top: 30px;
+width: 75%;
+}
+
+#footer_links li{font-size: 25px;
+list-style-type: none;
+}
+
+#footer_links li a{font-family: "Calibri";
+color: white;
+border-bottom: 1px dotted white;}
+
+#footer_links li a:hover{
+color: yellow
+}
