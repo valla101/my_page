@@ -35,27 +35,29 @@ background-color: yellow;}
 
 #page_header{padding-bottom: 100px;}
 
-#snapshot{vertical-align: top;
+/* #snapshot{vertical-align: top;
     display: inline-block;
     text-align: center;
 border-right: 1px solid black;
-padding-right: 50px;}
+padding-right: 50px;
+width: 50%;} */
+
+#snapshot {padding-top: 10px;
+    display: inline-block;
+    text-align: justify;
+    border-right: 1px solid black;
+    padding-right: 75px;}
 
 #snapshot img{width:250px;height:250px;
 border-radius: 50%;
-padding: 10px;
-float: top;}
+padding: 10px;}
 
 /* Sets Width of block of text under picture */
 #snapshot p {width: 300px;
 font-family: 'Calibri';}
 
-#logos {width: 60%;
-float: right;
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 8%;}
+#logos {width: 100%;
+    margin-top: 25%;}
 
 /* Projects Section*/
 
