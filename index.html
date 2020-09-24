@@ -30,6 +30,8 @@
         </div>
     </nav>
 
+
+    <!-- Profile Description -->
     <div class="container" id="page_header">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -45,8 +47,23 @@
             </div>
         </div>
     </div>
+    
+
     <div class = "container">
-        <h1 id="project_header">Projects</h1>
+        <h1 class = "section_header">Knowledge Base</h1>
+    </div>
+    <div class = "container">
+        <figure id = "knowledge_base">
+            <img class = "image-responsive" src = "static/images/css_logo.png">
+            <img class = "image-responsive" src = "static/images/HTML5_logo.png">
+            <img class = "image-responsive" src = "static/images/javascript-logo.png">
+            <img class = "image-responsive" src = "static/images/python_logo.png">
+            <img class = "image-responsive" src = "static/images/postgresql_logo.png">
+            <img class = "image-responsive" src = "static/images/mongodb-logo.png">
+        </figure>
+    </div>
+    <div class = "container">
+        <h1 class="section_header">Projects</h1>
     </div>
     <div class = "container">
         <h2 id="project_1">NBA Awards Predictor</h2>
@@ -57,12 +74,39 @@
             </figure>
         </div>
         <div class="row">
-            <p id = "mvp_description"> Ever wondered how to apply machine learning? This is an example of how to combine sports and technology! The scope of the project was to use statistics from previous seasons’ winners, apply these statistics into algorithms to make the machine “learn”, and subsequently predict the current season’s award winners. In this project we were able to predict Most Valuable Player and Rookie of The Year. Our predictions were correct! Giannis Antetokounmpo won Most Valuable Player and Ja Morant won Rookie of The Year for the 2019-2020 NBA Season.</p>
+            <p class = "proj_description"> Ever wondered how to apply machine learning? This is an example of how to combine sports and technology! The scope of the project was to use statistics from previous seasons’ winners, apply these statistics into algorithms to make the machine “learn”, and subsequently predict the current season’s award winners. In this project we were able to predict Most Valuable Player and Rookie of The Year. Our predictions were correct! Giannis Antetokounmpo won Most Valuable Player and Ja Morant won Rookie of The Year for the 2019-2020 NBA Season.</p>
+        </div>
+    </div>
+    <div class = "container">
+        <h2 id="project_2">USA Power Plants | <a href = "https://usa-power-plants.herokuapp.com/" id = "project_2_link"> Link Here</a></h2>
+        <div class = "row">
+            <figure id = "project_2_figure">
+                <img class = "image-responsive" id = "project_2_gif" src= "static/images/power_plants_usa_website.gif">
+            </figure>
+        </div>
+        <div class = "row">
+            <p class = "proj_description">An interactive website focused on the generation of power throughout the country. With power being so essential to our modern lifestyle, the inspiration behind the website was to bring information to the public. There are many different forms of power generation, some less harmful to our environment than others. A summary of the country’s power generation for the year 2017 is displayed, which can also be separated by type of generation such as Wind, Nuclear, Geothermal, etc. Any users who are curious can find their nearest power plant. By clicking on the map, users can zoom in and find their nearest power plant. At the bottom of the page, a list of all the licensed power plants in the country are available. </p>
         </div>
     </div>
 
-    <!-- JS Script -->
-    <script src="static/js/app.js"></script>
+    <footer class = "page-footer">
+        <div class = "container">
+            <div class = "row">
+                <h2 id = "footer_h2">Additional Links</h2>
+            </div>
+            <div class = "row">
+                <ul id = "footer_links">
+                    <li><a href = "static/images/Alex Valladares - Resume.pdf">Resume</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+
+    
 </body>
+
+<!-- JS Script -->
+<script src="static/js/app.js"></script>
 
 </html>

@@ -35,22 +35,22 @@ background-color: yellow;}
 
 #page_header{padding-bottom: 100px;}
 
-/* #snapshot{vertical-align: top;
-    display: inline-block;
-    text-align: center;
-border-right: 1px solid black;
-padding-right: 50px;
-width: 50%;} */
-
 #snapshot {padding-top: 10px;
-    display: inline-block;
-    text-align: center;
-    border-right: 1px solid black;
-    padding-right: 75px;}
+display: inline-block;
+text-align: center;
+border-right: 1px solid black;
+padding-right: 75px;}
 
 #snapshot img{width:250px;height:250px;
 border-radius: 50%;
 padding: 10px;}
+
+@media only screen and (max-width:991px) {
+    #snapshot img{width:250px;height:250px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;}
+}
 
 /* Sets Width of block of text under picture */
 #snapshot p {width: 300px;
@@ -70,11 +70,20 @@ margin-top: 25%;}
     padding-left: 15px;}
 }
 
+/* Knowledge Section */
+
+#knowledge_base{width: auto;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 100px;}
+
+#knowledge_base img{height: 100px;}
+
 /* Projects Section*/
 
 
 /* MVP Project */
-#project_header {text-align: center;
+.section_header {text-align: center;
 width: 100%;
 border-bottom:2px solid black;
 padding-bottom: 10px;
@@ -95,9 +104,57 @@ margin-left: auto;
 margin-right: auto;
 border:1px solid gray}
 
-#mvp_description {border-top: 1px black;
+.proj_description {border-top: 1px black;
 text-align: justify;
 float: bottom;
 margin-top: 10px;
 padding-top: 20px;
 font-size: 16px;}
+
+/* Power Plants Project */
+
+#project_2 {text-align: center;
+font-family: 'Calibri Light';
+color: rgb(62, 62, 231);
+font-weight: bold;
+padding-top: 100px;
+padding-bottom: 15px;}
+
+
+#project_2_figure img{width: 75%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border:1px solid gray}
+
+#project_2_link{color: rgb(62, 62, 231);
+border-bottom: 2px solid rgb(62, 62, 231);}
+
+#project_2_link:hover{color: rgb(252, 190, 76);
+border-bottom: 0px;}
+
+
+/* Footer */
+.page-footer {
+width: 100%;
+background-color: cadetblue;
+}
+
+.page-footer .container {
+width: 75%;
+}
+
+#footer_h2 {text-align: center;
+font-family: "Calibri";}
+
+#footer_links li{font-size: 25px;
+list-style-type: none;
+}
+
+#footer_links li a{font-family: "Calibri";
+color: white;
+border-bottom: 1px dotted white;}
+
+#footer_links li a:hover{
+color: yellow
+}
