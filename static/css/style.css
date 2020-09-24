@@ -70,11 +70,20 @@ margin-top: 25%;}
     padding-left: 15px;}
 }
 
+/* Knowledge Section */
+
+#knowledge_base{width: auto;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 100px;}
+
+#knowledge_base img{height: 100px;}
+
 /* Projects Section*/
 
 
 /* MVP Project */
-#project_header {text-align: center;
+.section_header {text-align: center;
 width: 100%;
 border-bottom:2px solid black;
 padding-bottom: 10px;
@@ -95,7 +104,7 @@ margin-left: auto;
 margin-right: auto;
 border:1px solid gray}
 
-#mvp_description {border-top: 1px black;
+.proj_description {border-top: 1px black;
 text-align: justify;
 float: bottom;
 margin-top: 10px;
@@ -118,9 +127,13 @@ margin-left: auto;
 margin-right: auto;
 border:1px solid gray}
 
-#project_2_link{color: rgb(62, 62, 231);}
+#project_2_link{color: rgb(62, 62, 231);
+border-bottom: 2px solid rgb(62, 62, 231);}
 
-#project_2_link:hover{color: rgb(252, 190, 76);}
+#project_2_link:hover{color: rgb(252, 190, 76);
+border-bottom: 0px;}
+
+
 /* Footer */
 .page-footer {
 width: 100%;
@@ -128,9 +141,11 @@ background-color: cadetblue;
 }
 
 .page-footer .container {
-padding-top: 30px;
 width: 75%;
 }
+
+#footer_h2 {text-align: center;
+font-family: "Calibri";}
 
 #footer_links li{font-size: 25px;
 list-style-type: none;
