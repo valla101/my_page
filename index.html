@@ -69,13 +69,26 @@
         <h2 id="project_1">NBA Awards Predictor</h2>
         <div class = "row">
             <figure id = "project_1_figure">
-                <!-- <img class = "image-responsive" id = "project_1_gif" src= "../../../Videos/gifs/mvp_website.gif"> -->
                 <img class = "image-responsive" id = "project_1_gif" src= "static/images/mvp_website.gif">
             </figure>
         </div>
+        <div class = "row">
+            <!-- Modal for Enlarging Image -->
+            <button class= "btn btn-primary" id="myBtn">Enlarge Gif</button>
+            <div class="modal" id="myModal">
+                <!-- Model content -->
+                <div class="modal-content">
+                    <img src="static/images/mvp_website.gif">
+                    <span class="close" id = "close_modal">&times;</span>
+                </div>
+            </div>
+        </div>
+
         <div class="row">
             <p class = "proj_description"> Ever wondered how to apply machine learning? This is an example of how to combine sports and technology! The scope of the project was to use statistics from previous seasons’ winners, apply these statistics into algorithms to make the machine “learn”, and subsequently predict the current season’s award winners. In this project we were able to predict Most Valuable Player and Rookie of The Year. Our predictions were correct! Giannis Antetokounmpo won Most Valuable Player and Ja Morant won Rookie of The Year for the 2019-2020 NBA Season.</p>
         </div>
+
+
     </div>
     <div class = "container">
         <h2 id="project_2">USA Power Plants | <a href = "https://usa-power-plants.herokuapp.com/" id = "project_2_link"> Link Here</a></h2>
@@ -83,6 +96,17 @@
             <figure id = "project_2_figure">
                 <img class = "image-responsive" id = "project_2_gif" src= "static/images/power_plants_usa_website.gif">
             </figure>
+        </div>
+        <div class = "row">
+            <!-- Modal for Enlarging Image -->
+            <button class= "btn btn-primary" id="myBtn2">Enlarge Gif</button>
+            <div class="modal" id="myModal2">
+                <!-- Model content -->
+                <div class="modal-content">
+                    <img src="static/images/power_plants_usa_website.gif">
+                    <span class="close" id = "close_modal2">&times;</span>
+                </div>
+            </div>
         </div>
         <div class = "row">
             <p class = "proj_description">An interactive website focused on the generation of power throughout the country. With power being so essential to our modern lifestyle, the inspiration behind the website was to bring information to the public. There are many different forms of power generation, some less harmful to our environment than others. A summary of the country’s power generation for the year 2017 is displayed, which can also be separated by type of generation such as Wind, Nuclear, Geothermal, etc. Any users who are curious can find their nearest power plant. By clicking on the map, users can zoom in and find their nearest power plant. At the bottom of the page, a list of all the licensed power plants in the country are available. </p>

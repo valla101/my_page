@@ -111,6 +111,27 @@ margin-top: 10px;
 padding-top: 20px;
 font-size: 16px;}
 
+#myBtn{background-color: cadetblue;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+display: flex;}
+
+.modal-content{display: block;
+width: 1180px;
+margin-left: auto;
+margin-right: auto;}
+
+.modal-content img{width: 1150px;}
+
+#close_modal{position: absolute;
+font-size: 50px;
+background-color: red;
+color: white;
+opacity: 1.0;}
+
+.close{font: 0}
+
 /* Power Plants Project */
 
 #project_2 {text-align: center;
@@ -133,6 +154,25 @@ border-bottom: 2px solid rgb(62, 62, 231);}
 #project_2_link:hover{color: rgb(252, 190, 76);
 border-bottom: 0px;}
 
+#myBtn2{background-color: cadetblue;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+display: flex;}
+    
+.modal-content{display: block;
+width: 1180px;
+margin-left: auto;
+margin-right: auto;}
+    
+.modal-content img{width: 1150px;}
+    
+#close_modal2{position: absolute;
+font-size: 50px;
+background-color: red;
+color: white;
+opacity: 1.0;}
+
 
 /* Footer */
 .page-footer {
@@ -152,9 +192,10 @@ list-style-type: none;
 }
 
 #footer_links li a{font-family: "Calibri";
-color: white;
-border-bottom: 1px dotted white;}
+color: white;}
 
 #footer_links li a:hover{
 color: yellow
 }
+
+/* Testing */
