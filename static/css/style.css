@@ -17,6 +17,7 @@ position: sticky;
 top:0;
 z-index: 1;}
 
+
 /* responsible for positioning of links */
 
 
@@ -28,6 +29,21 @@ font-weight: bold;}
 ul.nav.navbar-nav li a:hover {color: blue;
 background-color: yellow;}
 
+@media only screen and (min-width: 991px) {
+    #dropdown_nav { display: none; }
+  }
+
+@media only screen and (max-width: 990px) {
+    #dropdown_nav { display: block; }
+
+    .dropdown-menu { display: block; }
+
+  }
+
+ 
+@media only screen and (max-width: 990px) {
+ul.nav.navbar-nav li a { display: none; }
+} 
 
 /* Photo & Text */
 
@@ -131,6 +147,11 @@ color: white;
 opacity: 1.0;}
 
 .close{font: 0}
+
+@media only screen and (max-width: 991px) {
+    .modal-content { width: 750px !important; }
+    .modal-content img { width: 750px !important; }
+} 
 
 /* Power Plants Project */
 
