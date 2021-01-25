@@ -105,6 +105,26 @@ padding-bottom: 100px;}
 
 /* Projects Section*/
 
+/* FPL Project */
+
+#project_3 {text-align: center;
+    font-family: 'Calibri Light';
+    color: rgb(62, 62, 231);
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 15px;}
+
+#project_3_figure img{width: 75%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border:1px solid gray}
+
+#project_3_link{color: rgb(62, 62, 231);
+border-bottom: 2px solid rgb(62, 62, 231);}
+
+#project_3_link:hover{color: rgb(252, 190, 76);
+border-bottom: 0px;}
 
 /* MVP Project */
 .section_header {text-align: center;
@@ -181,7 +201,7 @@ text-align: justify;}
 font-family: 'Calibri Light';
 color: rgb(62, 62, 231);
 font-weight: bold;
-padding-top: 100px;
+padding-top: 10px;
 padding-bottom: 15px;}
 
 
